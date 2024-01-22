@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Webpage</title>
+    <link rel="stylesheet" type="text/css" href="productManagement.css">
+    <script type="text/javascript" src="productManagement.js"></script>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="easilylogo.png" alt="Logo">
+        </div>
+        <h1 class="page-title">Product Admin Page</h1>
+        <div class="logout">
+            <a href="#">Logout</a>
+        </div>
+    </header>
+
+    <div class="sidebar">
+        <ul>
+            <li><a href="#">Add Product</a></li>
+            <li><a href="#">Add Feature</a></li>
+            <li><a href="#">Create Plan</a></li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <div id="buyContainer">
+            <button id="buy">Buy Now</button>
+        </div>
+        <div id="googlePayContainer"></div>
+    </div>
+    
+
+    <script async 
+    src="https://pay.google.com/gp/p/js/pay.js"
+    onload="onGooglePayLoaded()"
+    ></script>
+
+</body>
+</html>

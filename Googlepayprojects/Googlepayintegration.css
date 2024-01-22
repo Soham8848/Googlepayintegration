@@ -1,0 +1,56 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #918559;
+    color: white;
+    padding: 15px;
+}
+
+.logo img {
+    max-width: 100px;
+}
+
+.logout a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Sidebar/Left Navigation Styles */
+.sidebar {
+    width: 200px;
+    background-color: #f2f2f2;
+    float: left;
+    height: 100vh;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li {
+    padding: 10px;
+    margin:5px;
+    border-bottom: 1px solid #ccc;
+}
+
+.sidebar ul li a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+}
+
+/* Content Area Styles */
+.content {
+    margin-left: 200px; /* Adjust this to match the width of the sidebar */
+    padding: 20px;
+}
